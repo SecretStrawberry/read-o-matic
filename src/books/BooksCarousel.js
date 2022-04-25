@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 import { colors } from "../utils/colors";
 
-import CarouselItem from "./CarouselItem";
+import BookItem from "./BookItems";
 
 const CarouselWrapper = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400&display=swap");
@@ -27,7 +27,7 @@ const CarouselWrapper = styled.div`
 const ItemsContainer = styled.div`
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: 1fr;
+
   justify-content: start;
 
   height: 85%;
@@ -41,7 +41,7 @@ function BooksCarousel() {
     <CarouselWrapper>
       <h2>Currently reading</h2>
       <ItemsContainer>
-        <CarouselItem />
+        <BookItem />
       </ItemsContainer>
     </CarouselWrapper>
   );
