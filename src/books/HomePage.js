@@ -53,6 +53,14 @@ const StyledLink = styled(Link)`
   color: ${colors.black};
 `;
 
+const CarouselLibraryContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  min-height: 90vh;
+`;
+
 function HomePage() {
   return (
     <Home>
@@ -62,8 +70,10 @@ function HomePage() {
           <IoAdd />
         </StyledLink>
       </AddBookContainer>
-      <BooksCarousel />
-      <BooksLibrary />
+      <CarouselLibraryContainer>
+        <BooksCarousel />
+        <BooksLibrary />
+      </CarouselLibraryContainer>
     </Home>
   );
 }

@@ -7,7 +7,7 @@ const LibraryWrapper = styled.div`
 
   margin-top: 2rem;
 
-  padding: 1rem 2rem;
+  padding: 3rem 2rem;
   box-shadow: 0 0 4px ${colors.grey};
 
   font-family: "Josefin Sans", sans-serif;
@@ -27,7 +27,7 @@ const ListItem = styled.div`
 
   width: 100%;
 
-  font-size: 1.4rem;
+  font-size: 1.9rem;
 
   padding: 0.5rem 1rem;
 

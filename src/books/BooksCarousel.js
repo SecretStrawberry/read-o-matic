@@ -10,10 +10,8 @@ const CarouselWrapper = styled.div`
 
   background-color: ${colors.vanilla};
   box-shadow: 0 0 4px ${colors.grey};
-  height: 22rem;
-  margin-top: 2rem;
 
-  padding: 1rem 1rem;
+  padding: 3rem 1rem;
 
   overflow: hidden;
 
@@ -33,7 +31,7 @@ const ItemsContainer = styled.div`
   height: 85%;
   column-gap: 1rem;
 
-  margin-top: 1rem;
+  margin-top: 3rem;
 `;
 
 function BooksCarousel() {
