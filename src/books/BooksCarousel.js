@@ -12,7 +12,6 @@ const CarouselWrapper = styled.div`
   grid-auto-flow: column;
   justify-content: start;
 
-  grid-template-columns: min-content;
   grid-template-rows: 2rem 1fr;
   column-gap: 1rem;
   row-gap: 1rem;

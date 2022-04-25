@@ -8,10 +8,6 @@ import { colors } from "../utils/colors";
 const Item = styled.div`
   grid-row: 2 / 2;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
   font-size: 2rem;
 
   width: 11rem;
