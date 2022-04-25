@@ -29,6 +29,7 @@ const CarouselWrapper = styled.div`
   & > h2 {
     font-size: 1.6rem;
     grid-column: 1 / 3;
+    grid-row: 1 / 1;
     font-family: "Josefin Sans", sans-serif;
     font-weight: 500;
   }
