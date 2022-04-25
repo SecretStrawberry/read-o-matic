@@ -1,15 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-
 import { IoAdd } from "react-icons/io5";
 
 import { colors } from "../utils/colors";
 
-const Item = styled.div`
-  grid-row: 2 / 2;
-
+const Book = styled.div`
   font-size: 2rem;
-
   width: 11rem;
   height: 100%;
 
@@ -20,15 +16,15 @@ const Item = styled.div`
 function CarouselItem() {
   return (
     <>
-      <Item>
+      <Book>
         <IoAdd />
-      </Item>
-      <Item>
+      </Book>
+      <Book>
         <IoAdd />
-      </Item>
-      <Item>
+      </Book>
+      <Book>
         <IoAdd />
-      </Item>
+      </Book>
     </>
   );
 }
